@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Injection Dependence and Data Persistence</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_getting_movies">Error</string>
+    <string name ="Movies">Peliculas</string>
+    <string name ="Ditails">Peliculas de hoy</string>
+    <string name ="Upcoming">Proximos estrenos</string>
+</resources>
