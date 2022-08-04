@@ -19,7 +19,7 @@ interface MovieApiClient {
         @GET("movie/{id}")
         suspend fun getMovie(@Path("id") id: Int, @Query("api_key") apiKey: String = API_KEY ,@Query("language") language:String =Lenguaje ): Response<MovieModel>
 
-        @GET("movie/top_rated")
+        @GET("movie/popular")
         suspend fun getAllUpComings(@Query("api_key") apiKey: String = API_KEY,@Query("language") language:String =Lenguaje): Response<GetUpcomingResponse>
 
         @GET("movie/{id}")

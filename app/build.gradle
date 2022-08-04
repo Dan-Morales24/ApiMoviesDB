@@ -14,8 +14,8 @@ android {
         applicationId "com.pelis.injectiondependenceanddatapersistence"
         minSdk 21
         targetSdk 31
-        versionCode 4
-        versionName "1.2"
+        versionCode 5
+        versionName "1.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -79,9 +79,9 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_android_version"
 
     //Hilt
-    implementation 'com.google.dagger:hilt-android:2.28.1-alpha'
+    implementation 'com.google.dagger:hilt-android:2.28-alpha'
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01"
-    kapt 'com.google.dagger:hilt-android-compiler:2.28.1-alpha'
+    kapt 'com.google.dagger:hilt-android-compiler:2.28-alpha'
     kapt "androidx.hilt:hilt-compiler:1.0.0-alpha01"
 
     //Room
