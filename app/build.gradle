@@ -11,11 +11,11 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.injectiondependenceanddatapersistence"
+        applicationId "com.pelis.injectiondependenceanddatapersistence"
         minSdk 21
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 4
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -100,7 +100,8 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     kapt 'com.github.bumptech.glide:compiler:4.11.0'
 
-
+    // ads
+    implementation 'com.google.android.gms:play-services-ads:21.0.0'
 
     //Timber
     implementation 'com.jakewharton.timber:timber:4.7.1'

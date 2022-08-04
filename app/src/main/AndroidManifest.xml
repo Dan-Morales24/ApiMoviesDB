@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.injectiondependenceanddatapersistence">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pelis.injectiondependenceanddatapersistence">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +16,8 @@
         android:theme="@style/Theme.InjectionDependenceAndDataPersistence">
         <activity
             android:name=".ui.view.movies.MoviesUpComing"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="MissingClass" />
         <activity
             android:name=".ui.view.MainActivity"
             android:exported="true">
@@ -25,6 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1025290005046273~5278562390"/>
+
     </application>
 
 </manifest>

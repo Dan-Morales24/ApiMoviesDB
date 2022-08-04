@@ -6,6 +6,12 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".ui.view.movies.MoviesFragment"
     >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -85,6 +91,20 @@ tools:context=".ui.view.movies.MoviesFragment"
 
 
 </LinearLayout>
+
+</ScrollView>
+
+<com.google.android.gms.ads.AdView
+android:id="@+id/adView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true"
+android:layout_marginBottom="0dp"
+app:adSize="BANNER"
+app:adUnitId="ca-app-pub-1025290005046273/6675791587"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

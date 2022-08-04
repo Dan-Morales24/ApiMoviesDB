@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/moviesFragment"
-        android:name="com.example.injectiondependenceanddatapersistence.ui.view.movies.MoviesFragment"
+        android:name="com.pelis.injectiondependenceanddatapersistence.ui.view.movies.MoviesFragment"
         android:label="@string/Movies"
         tools:layout="@layout/movies_fragment">
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/moviesDetails"
-        android:name="com.example.injectiondependenceanddatapersistence.ui.view.Details.MoviesDetails"
+        android:name="com.pelis.injectiondependenceanddatapersistence.ui.view.Details.MoviesDetails"
         android:label="@string/Ditails"
         tools:layout="@layout/fragment_movies_details" />
     <fragment
         android:id="@+id/premieresFragment"
-        android:name="com.example.injectiondependenceanddatapersistence.ui.view.premieres.PremieresFragment"
+        android:name="com.pelis.injectiondependenceanddatapersistence.ui.view.premieres.PremieresFragment"
         android:label="@string/Upcoming"
         tools:layout="@layout/fragment_premieres" />
 </navigation>
